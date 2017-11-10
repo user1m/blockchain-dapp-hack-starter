@@ -1,0 +1,22 @@
+{
+  "name": "blockchain-dapp-hack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "start": "truffle develop",
+    "clean": "node ./helpers/clean",
+    "dev": "lite-server",
+    "test": "truffle test"
+  },
+  "author": {
+    "name": "Claudius Mbemba",
+    "url": "https://www.claudiusmbemba.com/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {}
+}

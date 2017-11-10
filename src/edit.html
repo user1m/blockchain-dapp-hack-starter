@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Customer List</title>
+    <link href="public/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="container">
+    <br>
+    <div>
+        <a name="" id="" class="btn btn-info" href="/" role="button">Back</a>
+    </div>
+    <br>
+    <div>
+        <h3>Edit Customer:
+            <span class="customerName"></span>
+        </h3>
+    </div>
+    <span class="alert"></span>
+    <br>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr>
+                <th>
+                    <p>Info</p>
+                </th>
+                <th>
+                    <p>Current Value</p>
+                </th>
+                <th>
+                    <p>New Value</p>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="customerRow">
+            <tr>
+                <td id="c-id-${i+1}">First Name</td>
+                <td id="c-name-${i+1}">James</td>
+                <td id="c-dob-${i+1}">
+                    <input type="text">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="button" name="submit" id="" onclick="submit()" class="btn btn-success btn-lg btn-block">Submit</button>
+
+    <script src="public/js/jquery.min.js "></script>
+    <script src="public/js/bootstrap.min.js "></script>
+    <script src="public/js/web3.min.js "></script>
+    <script src="public/js/truffle-contract.js "></script>
+    <script src="public/js/edit.js "></script>
+</body>
+
+</html>

@@ -6,15 +6,11 @@ Blockchain dapp template
 ## Prerequisites
 
 
-* Node - tested on `NodeJS v8+`
-* **Truffle Version 4+**
+* Node : tested on `NodeJS v8+`
 
-```
-> npm install -g truffle
-```
+* **Truffle Version 4+** : **`npm install -g truffle`**
 
-* testrpc 
-
+* testrpc : **`npm install -g ethereumjs-testrpc`**
 
 
 ## Installing

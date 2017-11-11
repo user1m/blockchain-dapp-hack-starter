@@ -1,7 +1,6 @@
 # blockchain-dapp-hack-starter
 
-Blockchain dapp template
-
+Template to turbo charge your Blockchain DAPP Development
 
 ## Prerequisites
 

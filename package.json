@@ -1,10 +1,11 @@
 {
   "name": "blockchain-dapp-hack-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template to turbo charge your Blockchain DAPP",
   "main": "truffle-config.js",
   "scripts": {
     "start": "truffle develop",
+    "watch": "truffle develop --log",
     "clean": "node ./helpers/clean",
     "dev": "lite-server",
     "test": "truffle test"

@@ -44,7 +44,11 @@ or
 
 ## Running Tests
 
-In the truffle console:
+```
+> npm test
+```
+
+Or in the truffle console: `truffle develop`
 
 ```
 truffle(develop)> test
@@ -52,7 +56,7 @@ truffle(develop)> test
 
 ## Running (Migrate & Deploy Contracts)
 
-In the truffle console:
+In the truffle console: `truffle develop`
 
 ```
 truffle(develop)> migrate --reset --compile-all

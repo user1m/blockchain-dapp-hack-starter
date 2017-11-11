@@ -23,7 +23,7 @@ registerEventListener = () => {
 };
 
 
-function closeAlert(time) {
+closeAlert = (time) => {
     setTimeout(() => {
         $("#close").click();
     }, time);

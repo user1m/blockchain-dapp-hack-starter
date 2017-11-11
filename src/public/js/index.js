@@ -5,7 +5,6 @@ let contracts = {};
 init = () => {
     $.getJSON('../customers.json', function (data) {
         for (i = 0; i < data.length; i++) {
-            // const i = 0;
             $('#customerRow').append([
                 `<tr>`,
                 `<td id="c-id-${i+1}">${i+1}</td>`,

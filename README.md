@@ -2,6 +2,9 @@
 
 Template to turbo charge your Blockchain DAPP Development
 
+### ***If you like this project, give it a [![GitHub stars](https://img.shields.io/github/stars/user1m/blockchain-dapp-hack-starter.svg?style=social&label=Star)](https://github.com/user1m/blockchain-dapp-hack-starter).  If you find issues, [create an issue](https://github.com/user1m/blockchain-dapp-hack-starter/issues).***
+
+
 ## Prerequisites
 
 
